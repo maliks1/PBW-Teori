@@ -23,7 +23,7 @@ if (isset($_POST)) {
             <!-- block -->
             <div class="block">
                 <div class="navbar navbar-inner block-header">
-                    <div class="muted pull-left">Input Nilai Mahasiswa</div>
+                    <div class="muted pull-left">Input Data Mahasiswa</div>
                 </div>
                 <div class="block-content collapse in">
                     <div class="span12">
@@ -34,7 +34,7 @@ if (isset($_POST)) {
                         <?php } ?>
 
                         <fieldset>
-                            <legend>Input Nilai Mahasiswa</legend>
+                            <legend>Input Data Mahasiswa</legend>
                             <div class="control-group">
                                 <label class="control-label" for="nama">NAMA MAHASISWA</label>
                                 <div class="controls">
@@ -54,6 +54,7 @@ if (isset($_POST)) {
                             </div>
                         </fieldset>
                     </form>
+                    <a href="pertemuan_13_search.php">Cari data Mahasiswa</a>
                 </div>
             </div>
         </div>
